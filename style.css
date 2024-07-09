@@ -1,11 +1,17 @@
 *{
     font-family: "Azeret Mono", monospace;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* common styles */
 .center-text{
     text-align: center;
 }
+
 /* Hero section desing */
 .hero-section{
     height: 652px;
@@ -26,7 +32,7 @@
 .hero-sec-para{
     font-size: 16px;
     font-weight: 400;
-    color: #0D1321;
+    color: rgba(13, 19, 33, 1);
     opacity: 70%;
 }
 .hero-btn{
@@ -41,4 +47,68 @@
 }
 .hero-sec-img{
     margin-top: 26px;
+}
+
+/*Why development section design*/
+.why-dev-container{
+    width: 946px;
+    height: 1206px;
+    margin: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why-development{
+    width: 1140px;
+    height: 1150px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 74px 0px auto;
+    border-radius: 16px;
+}
+.why-dev-title{
+    font-weight: 800;
+    font-size: 32px;
+}
+.change-world{
+    width: 946px;
+    height: 219px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+.change-world-txt{
+    width: 477px;
+    height: 219px;
+    margin-left: 32px;
+}
+.change-wolrd-title{
+    color: rgba(13, 19, 33, 0.7);
+}
+.change-world-btn{
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(13, 19, 33, 1);
+    padding: 12px 20px 12px 20px;
+    border: 0.5px solid black;
+}
+.change-world-para{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.layer-one-img{
+    width: 274.17px;
+    height: 240px;
+}
+.modern-web-sys{
+    margin-top: 32px;
+    width: 946px;
+    height: 219px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
 }
