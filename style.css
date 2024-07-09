@@ -50,6 +50,10 @@ main{
 }
 
 /*Why development section design*/
+.why-dev-para{
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
 .why-dev-container{
     width: 946px;
     height: 1206px;
@@ -111,4 +115,26 @@ main{
     border-radius: 16px;
     display: flex;
     align-items: center;
+}
+.change-world-btn:active{
+    background-color: rgba(13, 19, 33, 0.1);
+}
+
+/*my inspiration section*/
+.my-inspiration{
+    height: 775px;
+    width: 1140px;
+    margin-top: 117px;
+}
+.video > iframe{
+    width: 1076px;
+    height: 550px;
+    margin: 32px;
+}
+.video{
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
+.inspiration-title{
+    margin-top: 0px;
 }
