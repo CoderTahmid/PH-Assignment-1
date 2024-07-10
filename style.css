@@ -7,6 +7,9 @@ main{
     justify-content: center;
     align-items: center;
 }
+body{
+    scroll-behavior: smooth;
+}
 /* common styles */
 .center-text{
     text-align: center;
