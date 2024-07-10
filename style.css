@@ -138,3 +138,65 @@ main{
 .inspiration-title{
     margin-top: 0px;
 }
+
+/*Current target section design*/
+.current-target{
+    width: 1140px;
+    height: 460px;
+    margin-top: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.current-target > h1{
+    margin-top: 0px;
+}
+.skills{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    gap: 24px;
+}
+.html-container{
+    width: 364px;
+    height: 100%;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html{
+    height: 219px;
+    width: 284px;
+}
+.html-title{
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+.html-description{
+    margin-bottom: 24px;
+}
+.learn-more{
+    font-size: 16px;
+    font-weight: bold;
+}
+.css-container{
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.js-container{
+    width: 364px;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 223, 0, 0.05);
+}
