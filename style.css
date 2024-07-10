@@ -11,7 +11,7 @@ main{
 .center-text{
     text-align: center;
 }
-#submit, .change-world-btn:hover{
+#submit, .change-world-btn:hover, .hero-btn{
     cursor: pointer;
 }
 /* Hero section desing */
@@ -46,6 +46,9 @@ main{
     font-size: 20px;
     margin-top: 32px;
     margin-bottom: 45px;
+}
+.hero-btn:active{
+    background-color: rgba(13, 19, 33, 0.5);
 }
 .hero-sec-img{
     margin-top: 26px;
